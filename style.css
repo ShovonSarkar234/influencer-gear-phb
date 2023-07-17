@@ -46,6 +46,7 @@
 .hero-section {
     display: flex;
     align-items: center;
+    margin-top: 7rem;
 }
 
 .hero-text {
@@ -96,4 +97,17 @@
     top: .2rem;
     left: .7rem;
     font-size: 1.3rem;
+}
+
+.bard-section {
+    display: flex;
+    margin-top: 3rem;
+    justify-content: space-around;
+    margin-bottom: 5rem;
+    border-top: 2px solid lightgray;
+    border-bottom: 2px solid lightgray;    
+}
+
+.bard-section img {
+    margin: 20px 0 20px 0;
 }
