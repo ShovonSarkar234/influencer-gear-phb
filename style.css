@@ -226,10 +226,26 @@
 
 .btn-2 {
     margin-top: 1rem;
-    padding: 10px 25px;
+    padding: 15px 25px;
     background-color: #E02C6D;
     color: #FFF;
     border: none;
     font-size: 1rem;
     margin-left: 0;
+}
+
+.btn-2:hover {
+    color: black;
+    background-color: lightcoral;
+}
+
+.footer-content {
+    text-align: center;
+    background-color: #0A0826;
+    color: #fff;
+    padding: 5rem;
+}
+
+.footer-content h4,p {
+    margin-bottom: 1.5rem;
 }
