@@ -201,3 +201,35 @@
     bottom: 0;
     font-size: 1.2rem;
 }
+
+.features-section {
+    display: flex;
+    height: 80vh;
+    align-items: center;
+    gap: 5rem;
+    justify-content: space-around;
+}
+
+.content h3{
+    color: #0A0826;
+    font-size: 2rem;
+    font-weight: 700;
+    
+}
+
+.content p {
+    color: #6C6C6C;
+    width: 400px;
+    text-align: justify;
+    margin-top: 3rem;
+}
+
+.btn-2 {
+    margin-top: 1rem;
+    padding: 10px 25px;
+    background-color: #E02C6D;
+    color: #FFF;
+    border: none;
+    font-size: 1rem;
+    margin-left: 0;
+}
