@@ -249,3 +249,91 @@
 .footer-content h4,p {
     margin-bottom: 1.5rem;
 }
+
+.bars {
+    display: none;
+}
+
+.sharp {
+    display: none;
+}
+
+
+/* responsive section */
+
+@media screen and (min-width: 250px) and (max-width: 576px) {
+    .nav-section {
+        flex-direction: column;
+    }
+
+    .logo {
+        text-align: center;
+        font-size: 1rem;
+        margin-top: -50px;
+    }
+
+    .main-menu {
+        display: none;
+    }
+
+    .bars {
+        display: block;
+        margin-top: 50px;
+        margin-left: 10px;
+    }
+
+    .sharp {
+        display: block;
+        margin-left: 500px;
+        margin-top: -15px;
+    }
+    
+
+
+.hero-section {
+    flex-direction: column;
+}
+
+.hero-text h1{
+    font-size: 2rem;
+    margin-bottom: 3rem;
+    margin-left: rem;
+    text-align: center;
+
+
+}
+ 
+.hero-text p {
+    font-size: 1rem;
+    margin-left: 0;
+    width: 400px;
+    text-align: center;
+}
+
+.btn-1 {
+    padding: 10px 15px !important;
+    font-size: 15px;
+    width: 10rem;
+    margin-left: 130px;
+    margin-bottom: 15px;
+}
+
+.hero-img {
+    width: 15rem;
+}
+.bard-section {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-items: center;
+}
+
+.product-section {
+    grid-template-columns: 1fr;
+}
+
+.features-section {
+    flex-direction: column-reverse;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+}
