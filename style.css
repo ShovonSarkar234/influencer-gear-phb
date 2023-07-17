@@ -39,4 +39,61 @@
     color: black;
 }
 
+#shopping-cart {
+    width: 1.3rem;
+}
 
+.hero-section {
+    display: flex;
+    align-items: center;
+}
+
+.hero-text {
+    width: 70%;
+}
+
+.hero-text h1{
+    font-size: 4rem;
+    margin-bottom: 3rem;
+    margin-left: 1.3rem;
+}
+
+.hero-text p {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+    margin-left: 1.3rem;
+    width: 600px;
+}
+
+.hero-img img {
+    width:22rem;
+    background-image: url('images/Circle\ design.svg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.btn-1 {
+    width: 15rem;
+    height: auto;
+    color: #FFF;
+    margin-left: 1.3rem;
+    padding: 1rem;
+    background: #E02C6D;
+    border: none;
+    border-radius: 3rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.btn-1:hover {
+    color: black;
+    background-color: lightcoral;
+}
+
+.arrow {
+    position: relative;
+    top: .2rem;
+    left: .7rem;
+    font-size: 1.3rem;
+}
